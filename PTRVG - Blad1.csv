@@ -1,0 +1,49 @@
+PTRVG,,,
+Back pcb,,,
+Amount,Designator,Part Type,Properties
+1,,Generic molex header - 4 pins,"package THT; hole size 1.0mm,0.508mm; row single; form molex; pins 4; pin spacing 0.1in (2.54mm)"
+1,C10,Ceramic Capacitor,"package 0603 [SMD, multilayer]; capacitance 470pF; voltage 6.3V"
+1,C11,Ceramic Capacitor,"package 0603 [SMD, multilayer]; capacitance 22pF; voltage 6.3V"
+1,C12,Ceramic Capacitor,"package 0603 [SMD, multilayer]; capacitance 10nF; voltage 6.3V"
+7,"C13-C16, C19, C20, C23",Ceramic Capacitor,"package 0603 [SMD, multilayer]; capacitance 100nF; voltage 6.3V"
+2,"C17, C18",Electrolytic Capacitor,"package 0605 [SMD, electrolytic]; capacitance 47µF; voltage 6.3V"
+2,"C21, C22",Electrolytic Capacitor,"package 0405 [SMD, electrolytic]; capacitance 10µF; voltage 6.3V"
+2,"D1, D2",Zener Diode,package 300 mil [THT]; breakdown voltage 3.6V; type Zener; power dissipation 0.5W; part # 5.1V
+2,"IC3, IC4",SOIC-14,package SOIC-14; true; chip label IC3; part # LM3900
+1,IC5,SO16,package SO16; true; chip label IC5; part # CD4015
+1,IC6,SOIC-14,package SOIC-14; true; chip label IC6; part # CD4016
+1,IC7,Voltage Regulator LM1117,package sot223; features LDO; current 150mA; voltage adjustable; chip LM1117; variant sot223
+2,,Generic female header - 4 pins,"package THT; hole size 1.0mm,0.3mm; row single; form ♀ (female); pins 4; pin spacing 0.1in (2.54mm)"
+1,,Generic female header - 7 pins,"package THT; hole size 1.0mm,0.508mm; row single; form ♀ (female); pins 7; pin spacing 0.1in (2.54mm)"
+1,Q1,NPN-Transistor,package SOT-23 [SMD]; type NPN
+4,"R2, R33, R34, R36",1k Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 1kΩ
+9,"R3, R15-R18, R30-R32,R35",680k Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 680kΩ
+2,"R4, R5",100k Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 100kΩ
+6,"R6-R8, R10, R12, R37",1M Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 1MΩ
+4,"R9, R11, R24, R25",2.2M Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 2.2MΩ
+4,"R13, R14, R19, R20",330k Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 330kΩ
+2,"R21, R22",82k Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 82kΩ
+1,R23,68k Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 68kΩ
+4,R26-R29,150k Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 150kΩ
+1,R38,10k Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 10kΩ
+1,U1,attiny85,package dip; version Attiny85-20PU; type Atmel AVR; variant dip08 THT; part # ATTINY85
+,,,
+Front pcb,,,
+Amount,Designator,Part Type,Properties
+3,D1-D3,Rectifier Diode,package Melf DO-213 AA [SMD]; type Rectifier; part # 1n4148
+2,,Generic female header - 4 pins,"package THT; hole size 1.0mm,0.3mm; row single; form ♀ (female); pins 4; pin spacing 0.1in (2.54mm)"
+1,,Generic female header - 7 pins,"package THT; hole size 1.0mm,0.3mm; row single; form ♀ (female); pins 7; pin spacing 0.1in (2.54mm)"
+3,,Red LED - 3mm,package 3 mm [THT]; leg yes; color Red (633nm)
+10,,Generic female header - 1 pins,"package THT; hole size 1.0mm,0.508mm; row single; form ♀ (female); pins 1; pin spacing 0.1in (2.54mm)"
+1,R1,Rotary Potentiometer (Small),package THT; size Rotary - 9mm; track Linear; type Rotary Shaft Potentiometer; maximum resistance 100kΩ; part # random1
+1,R2,Rotary Potentiometer (Small),package THT; size Rotary - 9mm; track Linear; type Rotary Shaft Potentiometer; maximum resistance 100kΩ; part # random 2
+1,R3,Rotary Potentiometer (Small),package THT; size Rotary - 9mm; track Linear; type Rotary Shaft Potentiometer; maximum resistance 100kΩ; part # random 3
+1,R4,Rotary Potentiometer (Small),package THT; size Rotary - 9mm; track Linear; type Rotary Shaft Potentiometer; maximum resistance 100kΩ; part # random 4
+1,R5,Rotary Potentiometer (Small),package THT; size Rotary - 9mm; track Linear; type Rotary Shaft Potentiometer; maximum resistance 10kΩ; part # prob pot
+1,R6,Rotary Potentiometer (Small),package THT; size Rotary - 9mm; track Linear; type Rotary Shaft Potentiometer; maximum resistance 10kΩ; part # mode pot
+6,R7-R12,1k Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 1kΩ
+1,SW1,ToggleSW_Blue1,variant variant 4; part # prob sw
+1,SW2,ToggleSW_Blue1,variant variant 4; part # mode switch
+1,SW3,ToggleSW_Blue1,variant variant 4; part # t1 sw
+1,SW4,ToggleSW_Blue1,variant variant 4; part # t2 sw
+1,SW5,ToggleSW_Blue1,variant variant 4; part # t3 switch
